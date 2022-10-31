@@ -101,6 +101,14 @@ DBM-VP보이스팩이름_TBC.toc - 불성 클래식 toc 버전이 들어가야 �
 DBM-VP보이스팩이름_Wrath.toc - 리분 클래식 toc 버전이 들어가야 합니다
 ```
 
+기본값 toc에는 Interface 항목 아래에 다음의 내용이 들어가야 합니다
+```
+## X-Min-Interface: 100000 - 최신 확장팩 toc 버전
+## X-Min-Interface-Classic: 11403 - 클래식 시대섭 toc 버전
+## X-Min-Interface-BCC: 20504 - 불성 클래식 toc 버전
+## X-Min-Interface-Wrath: 30400 - 리분 클래식 toc 버전
+```
+
 기본값 toc와 Mainline은 반드시 들어가야 하며 지원할 클래식 버전 toc를 추가로 제작하면 됩니다. 내용은 위의 toc와 동일한 형식으로 작성하면 됩니다.
 
 ## 6. 제작 완료

@@ -1,4 +1,8 @@
-﻿#### 마지막 업데이트 : 22년 10월 31일 (WoW 10.0.0 / DBM VP Version 12) ####
+﻿#### 마지막 업데이트 : 22년 12월 3일 (WoW 10.0.2 / DBM VP Version 13) ####
+"polarityshift" => "극성 전환" // 현신의 금고 라자게스
+"positive" => "양전하" // 라자게스
+"negative" => "음전하" // 라자게스
+"movetopillar" => "기둥으로 가세요"
 
 "pushbackincoming" => "넉백" // 리후빔 신화, carefly와 동일 음성 사용
 "chainboss" => "넴드 사슬 거세요" // 용군단 넬타루스 차르가스 칼날 겨냥

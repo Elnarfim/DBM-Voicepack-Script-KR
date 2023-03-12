@@ -1,4 +1,4 @@
-# DBM 음성팩 제작 가이드 (Voice version 13 / toc version 100005)
+# DBM 음성팩 제작 가이드 (Voice version 13 / toc version 용군단 100005, 리분 30401, 시대 11403)
 
 ## 1. 준비물
 

@@ -1,4 +1,8 @@
-﻿#### 마지막 업데이트 : 22년 12월 3일 (WoW 10.0.2 / DBM VP Version 13) ####
+﻿#### 마지막 업데이트 : 23년 3월 13일 (WoW 10.0.5 / DBM VP Version 13) ####
+"movetomobs" => "몹으로 이동하세요"
+"movetoboss" => "보스한테 가세요"
+"getupwind" => "역풍 받으세요" // 소용돌이 누각 알타리우스
+"changecolor" => "색깔 바꾸세요"
 "polarityshift" => "극성 전환" // 현신의 금고 라자게스
 "positive" => "양전하" // 라자게스
 "negative" => "음전하" // 라자게스

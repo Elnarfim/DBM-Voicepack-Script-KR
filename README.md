@@ -96,15 +96,13 @@ X-DBM-Voice-HasCount - 카운트용 음성이 들어있을때 1로 하시고 없
 DBM-VP보이스팩이름.toc - 기본값 toc입니다. 최신 확장팩 toc 버전이 들어가야 합니다
 DBM-VP보이스팩이름_Mainline.toc - 최신 확장팩 toc 버전이 들어갑니다
 DBM-VP보이스팩이름_Vanilla.toc - 오리지날 클래식 (시대 서버) toc 버전이 들어가야 합니다
-DBM-VP보이스팩이름_TBC.toc - 불성 클래식 toc 버전이 들어가야 합니다
 DBM-VP보이스팩이름_Wrath.toc - 리분 클래식 toc 버전이 들어가야 합니다
 ```
 
-기본값 toc에는 Interface 항목 아래에 다음의 내용이 들어가야 합니다
+기본값 toc에는 Interface 항목 아래에 다음의 내용이 들어가야 합니다 (아래 toc 버전은 최신 넘버와 다릅니다 참고만 해주세요)
 ```
 ## X-Min-Interface: 100000 - 최신 확장팩 toc 버전
 ## X-Min-Interface-Classic: 11403 - 클래식 시대섭 toc 버전
-## X-Min-Interface-BCC: 20504 - 불성 클래식 toc 버전
 ## X-Min-Interface-Wrath: 30400 - 리분 클래식 toc 버전
 ```
 

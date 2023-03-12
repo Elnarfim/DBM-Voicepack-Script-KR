@@ -1,4 +1,4 @@
-# DBM 음성팩 제작 가이드 (Voice version 13 / toc version 100000)
+# DBM 음성팩 제작 가이드 (Voice version 13 / toc version 100005)
 
 ## 1. 준비물
 

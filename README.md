@@ -1,4 +1,4 @@
-# DBM 음성팩 제작 가이드 (Voice version 13 / toc version 용군단 100005, 리분 30401, 시대 11403)
+# DBM 음성팩 제작 가이드 (Voice version 14 / toc version 용군단 100105, 리분 30402, 시대 11403)
 
 ## 1. 준비물
 
@@ -44,30 +44,31 @@ github의 음성 스크립트 파일을 받아서 대본대로 녹음을 하면 
 
 이제 메모장이나 Editplus 같은 파일 에디터를 열고 toc 파일을 만들면 됩니다.
 
-까마귀의눈 음성팩 toc를 예시로 설명하겠습니다.
+무뉴뉴 음성팩 toc를 예시로 설명하겠습니다.
 
 ```
-## Interface: 70200
-## X-Min-Interface: 70200
-## Title:|cffffe00a<|r|cffff7d0aDBM|r|cffffe00a>|r |cff69ccf0Voicepack Eye of Crow|r
-## Title-koKR:|cffffe00a<|r|cffff7d0aDBM|r|cffffe00a>|r |cff69ccf0음성팩 까마귀의눈@헬스크림|r
+## Interface: 100105
+## X-Min-Interface: 100105
+## X-Min-Interface-Classic: 11403
+## X-Min-Interface-Wrath: 30402
+## Title:|cffffe00a<|r|cffff7d0aDBM Media|r|cffffe00a>|r |cff308530Voicepack mununyu|r
+## Title-koKR:|cffffe00a<|r|cffff7d0aDBM Media|r|cffffe00a>|r |cff308530음성팩 무뉴뉴|r
 ## DefaultState: enabled
 ## RequiredDeps: DBM-Core
-## Author: Elnarfim
-## Version: 0.7
+## Author: mununyu
+## Version: 2.61
+## IconTexture: Interface\AddOns\DBM-VPMununyu\mununyu_icon.tga
 ## X-DBM-Voice: 1
-## X-DBM-Voice-Name: 까마귀의눈 (Korean Male)
-## X-DBM-Voice-ShortName: EyeofCrowKR
-## X-DBM-Voice-Version: 7
+## X-DBM-Voice-Name: 무뉴뉴 (Korean Female)
+## X-DBM-Voice-ShortName: Mununyu
+## X-DBM-Voice-Version: 14
 ## X-DBM-Voice-HasCount: 1
 ```
 
-Interface - 와우 toc 버전입니다. 10.0.0은 100000 / 리분 클래식은 30400 입니다. 패치가 나오면 toc 버전이 올라갈 수 있으니 주기적으로 toc 버전 확인 필요
+Interface - 와우 toc 버전입니다. 본문 가장 위에 toc 버전이 표기되어 있습니다. 패치가 나오면 toc 버전이 올라갈 수 있으니 주기적으로 toc 버전 확인 필요
 
-X-Min-Interface - toc 버전과 동일하게 적으면 됩니다
-
-Title - 영문 클라용 애드온 이름입니다. 캐릭터 선택 화면에서 애드온 버튼 누르면 나오는 목록에 표시될 이름입니다
-앞에 색깔 코드가 씌워져있는 |cffffe00a<|r|cffff7d0aDBM|r|cffffe00a>|r 블럭은 건드리지 마시고 그 다음 블럭의 Voicepack 뒤부터 |r 사이에 이름을 쓰면 됩니다
+Title - 영문 클라용 애드온 이름입니다. 캐릭터 선택 화면에서 애드온 버튼 누르면 나오는 목록에 표시될 이름입니다. 색깔 코드가 복잡하니 코드를 그대로 복붙하는게 좋습니다
+앞에 색깔 코드가 씌워져있는 |cffffe00a<|r|cffff7d0aDBM Media|r|cffffe00a>|r |cff308530 블럭은 건드리지 마시고 그 다음 블럭의 Voicepack 뒤부터 |r 사이에 이름을 쓰면 됩니다
 
 Title-koKR - 한글 클라에서 보일 이름입니다. 영문 타이틀과 똑같은 위치에 한글명을 쓰면 됩니다.
 
@@ -78,6 +79,8 @@ RequireDeps - 다른 애드온에게 의존성을 갖게 하는 옵션입니다.
 Author - 제작자 이름입니다. toc파일은 언어 코드가 붙은 옵션 외에는 가급적 영어로 작성하셔야 합니다. 이것도 가급적 영어로 작성해주세요
 
 Version - 음성팩의 자체 버전입니다. 0.1로 하든 1.0으로 하든 자기 스타일대로 버전 넘버 지어주세요
+
+IconTexture - 본섭에서만 적용되는 애드온의 아이콘입니다. 캐릭터 선택창의 애드온 메뉴에 표시됩니다. 아이콘을 tga 파일로 직접 제작해서 넣을수도 있고 와우 아이콘을 넣을수도 있습니다. 와우 아이콘은 고유의 아이콘 ID를 써야합니다. 와우헤드 등에서 아이콘 검색으로 ID를 알 수 있습니다. tga 파일은 2의 제곱 크기에 32비트 알파채널이 적용되야 와우 상에서 표시가 됩니다
 
 X-DBM-Voice - 1로 설정하세요
 
@@ -93,24 +96,23 @@ X-DBM-Voice-HasCount - 카운트용 음성이 들어있을때 1로 하시고 없
 위의 toc 파일에는 리테일과 클래식 중 하나의 toc 버전만 사용할 수 있습니다. 만약 리테일과 클래식 통합 보이스팩을 제작하고 싶다면 클래식 버전별 멀티 toc 파일을 작성해야 합니다
 
 ```
-DBM-VP보이스팩이름.toc - 기본값 toc입니다. 최신 확장팩 toc 버전이 들어가야 합니다
-DBM-VP보이스팩이름_Mainline.toc - 최신 확장팩 toc 버전이 들어갑니다
+DBM-VP보이스팩이름.toc - 기본 toc입니다. 클래식만 지원하게 만들거면 여기에 클래식 toc 버전만 넣고 다른 toc는 만들지 않아도 됩니다. 멀티 버전 지원시엔 반드시 여기에 최신 확장팩 toc 버전이 들어가야 합니다
 DBM-VP보이스팩이름_Vanilla.toc - 오리지날 클래식 (시대 서버) toc 버전이 들어가야 합니다
 DBM-VP보이스팩이름_Wrath.toc - 리분 클래식 toc 버전이 들어가야 합니다
 ```
 
-기본값 toc에는 Interface 항목 아래에 다음의 내용이 들어가야 합니다 (아래 toc 버전은 최신 넘버와 다릅니다 참고만 해주세요)
+기본 toc에는 Interface 항목 아래에 다음의 내용이 들어가야 합니다 (아래 toc 버전은 최신 넘버와 다릅니다 참고만 해주세요)
 ```
 ## X-Min-Interface: 100000 - 최신 확장팩 toc 버전
 ## X-Min-Interface-Classic: 11403 - 클래식 시대섭 toc 버전
 ## X-Min-Interface-Wrath: 30400 - 리분 클래식 toc 버전
 ```
 
-기본값 toc와 Mainline은 반드시 들어가야 하며 지원할 클래식 버전 toc를 추가로 제작하면 됩니다. 내용은 4번의 toc 양식과 동일하게 작성하면 됩니다.
+기본 toc는 반드시 들어가야 하며 멀티 버전 지원시엔 지원할 클래식 버전 toc를 추가로 제작하면 됩니다. 내용은 4번의 toc 양식과 동일하게 작성하면 됩니다.
 
 ## 6. 제작 완료
 
-작성이 끝나면 반드시 UTF-8 형식으로 toc 파일을 저장하세요. UTF-8로 저장하지 않으면 애드온 목록에서 ???? 로 뜨게 되니 주의하세요. <b>저장할 파일명은 폴더이름과 같아야 합니다.</b> 까마귀의눈을 예로 들면 DBM-VPEyeofCrowKR.toc 가 되야 합니다. 폴더명의 대소문자와 맞춰야 하고 폴더나 파일 이름에 <b>한글을 쓰면 안됩니다.</b>
+작성이 끝나면 반드시 UTF-8 형식으로 toc 파일을 저장하세요. UTF-8로 저장하지 않으면 애드온 목록에서 ???? 로 뜨게 되니 주의하세요. <b>저장할 파일명은 폴더이름과 같아야 합니다.</b> 무뉴뉴를 예로 들면 DBM-VPMununyu.toc 가 되야 합니다. 폴더명의 대소문자와 맞춰야 하고 폴더나 파일 이름에 <b>한글을 쓰면 안됩니다.</b>
 
 toc 파일은 음성팩 폴더 안에 넣으면 되는데 스크립트에 없는 음성 파일 3개가 더 필요합니다. 마린 고고고 효과음과 띠 띠 하는 비프음인데 위의 3가지 ogg 파일을 받아서 음성팩 폴더안에 넣으면 됩니다.
 

@@ -49,8 +49,6 @@ github의 음성 스크립트 파일을 받아서 대본대로 녹음을 하면 
 ```
 ## Interface: 100105
 ## X-Min-Interface: 100105
-## X-Min-Interface-Classic: 11403
-## X-Min-Interface-Wrath: 30402
 ## Title:|cffffe00a<|r|cffff7d0aDBM Media|r|cffffe00a>|r |cff308530Voicepack mununyu|r
 ## Title-koKR:|cffffe00a<|r|cffff7d0aDBM Media|r|cffffe00a>|r |cff308530음성팩 무뉴뉴|r
 ## DefaultState: enabled
@@ -98,17 +96,11 @@ X-DBM-Voice-HasCount - 카운트용 음성이 들어있을때 1로 하시고 없
 ```
 DBM-VP보이스팩이름.toc - 기본 toc입니다. 클래식만 지원하게 만들거면 여기에 클래식 toc 버전만 넣고 다른 toc는 만들지 않아도 됩니다. 멀티 버전 지원시엔 반드시 여기에 최신 확장팩 toc 버전이 들어가야 합니다
 DBM-VP보이스팩이름_Vanilla.toc - 오리지날 클래식 (시대 서버) toc 버전이 들어가야 합니다
-DBM-VP보이스팩이름_Wrath.toc - 리분 클래식 toc 버전이 들어가야 합니다
+DBM-VP보이스팩이름_Cata.toc - 대격변 클래식 toc 버전이 들어가야 합니다
 ```
 
-기본 toc에는 Interface 항목 아래에 다음의 내용이 들어가야 합니다 (아래 toc 버전은 최신 넘버와 다릅니다 참고만 해주세요)
-```
-## X-Min-Interface: 100000 - 최신 확장팩 toc 버전
-## X-Min-Interface-Classic: 11403 - 클래식 시대섭 toc 버전
-## X-Min-Interface-Wrath: 30400 - 리분 클래식 toc 버전
-```
-
-기본 toc는 반드시 들어가야 하며 멀티 버전 지원시엔 지원할 클래식 버전 toc를 추가로 제작하면 됩니다. 내용은 4번의 toc 양식과 동일하게 작성하면 됩니다.
+기본 toc는 반드시 있어야하며 기본 toc의 Interface 항목 아래에 '## X-Min-Interface: 본섭 toc버전' 항목을 추가해야 합니다
+멀티 버전 지원시엔 지원할 클래식 버전 toc를 추가로 제작하면 됩니다. 내용은 4번의 toc 양식과 동일하게 작성하면 됩니다.
 
 ## 6. 제작 완료
 

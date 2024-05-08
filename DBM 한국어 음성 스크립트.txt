@@ -1,4 +1,5 @@
-﻿#### 마지막 업데이트 : 24년 3월 10일 (WoW 10.2.5 / DBM VP Version 16) ####
+﻿#### 마지막 업데이트 : 24년 5월 9일 (WoW 10.2.7 / DBM VP Version 17) ####
+"movetostatue" => "조각상으로 가세요" // 어둠불꽃 동굴 양초왕
 "dpsstop" => "딜컷하세요"
 "dpshard" => "극딜하세요"
 "dpsmore" => "딜 좀만 더"

@@ -1,4 +1,10 @@
-﻿#### 마지막 업데이트 : 24년 5월 9일 (WoW 10.2.7 / DBM VP Version 17) ####
+﻿#### 마지막 업데이트 : 24년 5월 25일 (WoW 10.2.7 / DBM VP Version 17) ####
+"redyou" => "빨간색" 
+"yellowyou" => "노란색"
+"blueyou" => "파란색"
+"greenyou" => "녹색"
+"purpleyou" => "보라색"
+"orangeyou" => "주황색"
 "movetostatue" => "조각상으로 가세요" // 어둠불꽃 동굴 양초왕
 "dpsstop" => "딜컷하세요"
 "dpshard" => "극딜하세요"

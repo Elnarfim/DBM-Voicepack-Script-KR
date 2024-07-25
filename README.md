@@ -1,4 +1,4 @@
-# DBM 음성팩 제작 가이드 (Voice version 17 / toc version 용군단 100207, 대격변 40400, 시대 11503 (하드코어,디스커버리))
+# DBM 음성팩 제작 가이드 (Voice version 17 / toc version 내부전쟁 110000, 대격변 40400, 시대 11503 (하드코어,디스커버리))
 
 ## 1. 준비물
 
@@ -47,19 +47,19 @@ github의 음성 스크립트 파일을 받아서 대본대로 녹음을 하면 
 무뉴뉴 음성팩 toc를 예시로 설명하겠습니다.
 
 ```
-## Interface: 100105
-## X-Min-Interface: 100105
+## Interface: 110000, 110002
 ## Title:|cffffe00a<|r|cffff7d0aDBM Media|r|cffffe00a>|r |cff308530Voicepack mununyu|r
 ## Title-koKR:|cffffe00a<|r|cffff7d0aDBM Media|r|cffffe00a>|r |cff308530음성팩 무뉴뉴|r
 ## DefaultState: enabled
 ## RequiredDeps: DBM-Core
 ## Author: mununyu
-## Version: 2.61
+## Version: 2.7
 ## IconTexture: Interface\AddOns\DBM-VPMununyu\mununyu_icon.tga
 ## X-DBM-Voice: 1
-## X-DBM-Voice-Name: 무뉴뉴 (Korean Female)
+## X-DBM-Voice-Name: mununyu (Korean Female)
+## X-DBM-Voice-Name-koKR: 무뉴뉴 (한국어 여성)
 ## X-DBM-Voice-ShortName: Mununyu
-## X-DBM-Voice-Version: 14
+## X-DBM-Voice-Version: 17
 ## X-DBM-Voice-HasCount: 1
 ```
 
@@ -82,7 +82,9 @@ IconTexture - 본섭에서만 적용되는 애드온의 아이콘입니다. 캐�
 
 X-DBM-Voice - 1로 설정하세요
 
-X-DBM-Voice-Name - DBM 옵션에서 음성팩을 선택할 때 보이는 이름입니다. 가급적 영문 제목을 쓰는게 좋겠지만 부득이한 경우 한글로 쓰셔도 무방합니다. 음성팩 이름 뒤에는 괄호 치고 위처럼 언어와 성별을 영문으로 추가하는걸 권장합니다
+X-DBM-Voice-Name - 영문 클라이언트 실행시 DBM 옵션에서 음성팩을 선택할 때 보이는 이름입니다. 영문으로 작성합니다.
+
+X-DBM-Voice-Name-koKR - 한국어 클라이언트 실행시 DBM 옵션에서 음성팩을 선택할 때 보이는 이름입니다. 한글로 작성합니다.
 
 X-DBM-VoiceShortName - 반드시 <b>음성팩 폴더명에서 앞에 DBM-VP를 뺀 나머지 부분을 입력해야 합니다</b>
 
@@ -94,7 +96,7 @@ X-DBM-Voice-HasCount - 카운트용 음성이 들어있을때 1로 하시고 없
 위의 toc 파일에는 리테일과 클래식 중 하나의 toc 버전만 사용할 수 있습니다. 만약 리테일과 클래식 통합 보이스팩을 제작하고 싶다면 클래식 버전별 멀티 toc 파일을 작성해야 합니다
 
 ```
-DBM-VP보이스팩이름.toc - 기본 toc입니다. 클래식만 지원하게 만들거면 여기에 클래식 toc 버전만 넣고 다른 toc는 만들지 않아도 됩니다. 멀티 버전 지원시엔 반드시 여기에 최신 확장팩 toc 버전이 들어가야 합니다
+DBM-VP보이스팩이름_Mainline.toc - 본섭 toc입니다
 DBM-VP보이스팩이름_Vanilla.toc - 오리지날 클래식 (시대 서버) toc 버전이 들어가야 합니다
 DBM-VP보이스팩이름_Cata.toc - 대격변 클래식 toc 버전이 들어가야 합니다
 ```

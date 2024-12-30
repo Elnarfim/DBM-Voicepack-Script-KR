@@ -1,4 +1,15 @@
-﻿#### 마지막 업데이트 : 24년 10월 29일 (WoW 11.0.5 / DBM VP Version 17) ####
+﻿#### 마지막 업데이트 : 24년 12월 31일 (WoW 11.0.7 / DBM VP Version 18) ####
+"poolyou" => "pool on you" // 언더마인 해방전선
+"chargethroughbomb" => "aim charge through bomb" // ??
+
+"enteringcombat" => "전투 시작" // DBM 알림
+"leavingcombat" => "전투 종료" // DBM 알림
+"movetotendrils" => "촉수로 가세요" // 용의 영혼 데스윙의 등
+"rollincoming" => "곧 회전" // 용의 영혼 데스윙의 등
+"soakbeam" => "레이저 맞으세요" // 나락 타우릿산
+"runovermobs" => "슬라임 밟으세요" // 나락 록코르
+"movetoflamethrower" => "화염방사기로 가세요" // 나락 아젤마크
+
 "findclearvent" => "안전한 배기구로 가세요" // 바위금고 상급 기계공들
 "riftdispel" => "균열 근처로 가면 풀려요" // 바위금고 에리히
 "stopchargewithline" => "거미줄로 돌진 멈추세요" // 네룹아르 궁전 비단 궁정

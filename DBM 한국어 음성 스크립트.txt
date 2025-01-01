@@ -1,4 +1,4 @@
-﻿#### 마지막 업데이트 : 24년 12월 31일 (WoW 11.0.7 / DBM VP Version 18) ####
+﻿#### 마지막 업데이트 : 25년 1월 1일 (Retail 11.0.7 / Cata 4.4.1 / DBM VP Version 18) ####
 "poolyou" => "pool on you" // 언더마인 해방전선
 "chargethroughbomb" => "aim charge through bomb" // ??
 
@@ -7,7 +7,7 @@
 "movetotendrils" => "촉수로 가세요" // 용의 영혼 데스윙의 등
 "rollincoming" => "곧 회전" // 용의 영혼 데스윙의 등
 "soakbeam" => "레이저 맞으세요" // 나락 타우릿산
-"runovermobs" => "슬라임 밟으세요" // 나락 록코르
+"runovermobs" => "몹들을 밟으세요" // 나락 록코르
 "movetoflamethrower" => "화염방사기로 가세요" // 나락 아젤마크
 
 "findclearvent" => "안전한 배기구로 가세요" // 바위금고 상급 기계공들

@@ -1,5 +1,5 @@
 ﻿#### 마지막 업데이트 : 25년 1월 1일 (Retail 11.0.7 / Cata 4.4.1 / DBM VP Version 18) ####
-"poolyou" => "pool on you" // 언더마인 해방전선
+"poolyou" => "pool on you" // 언더마인 벡시
 "chargethroughbomb" => "aim charge through bomb" // ??
 
 "enteringcombat" => "전투 시작" // DBM 알림

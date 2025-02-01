@@ -1,4 +1,4 @@
-# DBM 음성팩 제작 가이드 (Voice version 18 / toc version 내부 전쟁 110007, 대격변 40401, 시대(하드코어,디스커버리) 11505)
+# DBM 음성팩 제작 가이드 (Voice version 18 / toc version 내부 전쟁 110007, 대격변 40401, 시대(하드코어,디스커버리,20주년) 11506)
 
 ## 1. 준비물
 
@@ -32,13 +32,11 @@ github의 음성 스크립트 파일을 받아서 대본대로 녹음을 하면 
 
 먼저 와우의 AddOns 폴더 안에 들어갈 애드온 폴더부터 만들어야 하는데, 폴더 이름은 <b?반드시 DBM-VP가 앞에 붙고 그 다음에 음성팩 이름이 들어가야 합니다.</b>
 
-함서로 음성팩의 예를 들면 DBM-VPHamseoroKR 로 되어있죠. HamseoroKR이 애드온 이름이 되는겁니다
-
-<b>애드온 이름을 지으실때 KR을 반드시 붙일 필요는 없습니다.</b> 영문으로 음성팩 이름을 지어서 폴더를 만드세요.
+음성팩 이름은 영문이어야 하며 DBM-VP를 앞에 붙여서 폴더를 만드세요. 예를 들면 무뉴뉴 음성팩의 폴더명은 DBM-VPMununyu 입니다.
 
 풀링 카운트 음성 파일은 폴더 안에 count 폴더를 만들어서 넣어야 합니다. <b>소문자로 만드세요</b>
 
-또다른 서브 폴더로는 Thogar가 있습니다. 이건 드군 레이드 중에 기차 지나다니는 네임드용 음성인데 안만들어도 상관없습니다.
+또다른 서브 폴더로는 Thogar가 있습니다. 이건 드군 레이드 중에 기차 지나다니는 네임드용 음성인데 안만들어도 상관없습니다. (향후 드군 클래식이 출시된다면 필요하겠지만)
 
 폴더명은 마찬가지로 대소문자를 맞춰서 작성해야 합니다.
 
@@ -47,23 +45,27 @@ github의 음성 스크립트 파일을 받아서 대본대로 녹음을 하면 
 무뉴뉴 음성팩 toc를 예시로 설명하겠습니다.
 
 ```
-## Interface: 110000, 110002
+## Interface: 110007, 110100, 40401, 40402, 11506
+## Category: DBM
+
 ## Title:|cffffe00a<|r|cffff7d0aDBM Media|r|cffffe00a>|r |cff308530Voicepack mununyu|r
 ## Title-koKR:|cffffe00a<|r|cffff7d0aDBM Media|r|cffffe00a>|r |cff308530음성팩 무뉴뉴|r
 ## DefaultState: enabled
 ## RequiredDeps: DBM-Core
 ## Author: mununyu
-## Version: 2.7
+## Version: 2.73
 ## IconTexture: Interface\AddOns\DBM-VPMununyu\mununyu_icon.tga
 ## X-DBM-Voice: 1
 ## X-DBM-Voice-Name: mununyu (Korean Female)
 ## X-DBM-Voice-Name-koKR: 무뉴뉴 (한국어 여성)
 ## X-DBM-Voice-ShortName: Mununyu
-## X-DBM-Voice-Version: 17
+## X-DBM-Voice-Version: 18
 ## X-DBM-Voice-HasCount: 1
 ```
 
 Interface - 와우 toc 버전입니다. 본문 가장 위에 toc 버전이 표기되어 있습니다. 패치가 나오면 toc 버전이 올라갈 수 있으니 주기적으로 toc 버전 확인 필요. 10.2.7 이후 클래식 포함 모든 버전부터는 여러 버전을 동시에 지원할 수 있습니다. 100105, 40400, 10503 같은 형태로 콤마를 넣어서 여러 toc 버전을 넣으면 됩니다.
+
+Catergory - 11.1 버전부터 추가된 항목입니다. 모듈 구조의 애드온을 관리하기 쉽도록 카테고리를 설정할 수 있습니다. 그대로 DBM으로 써주시면 됩니다.
 
 Title - 영문 클라용 애드온 이름입니다. 캐릭터 선택 화면에서 애드온 버튼 누르면 나오는 목록에 표시될 이름입니다. 색깔 코드가 복잡하니 코드를 그대로 복붙하는게 좋습니다
 앞에 색깔 코드가 씌워져있는 |cffffe00a<|r|cffff7d0aDBM Media|r|cffffe00a>|r |cff308530 블럭은 건드리지 마시고 그 다음 블럭의 Voicepack 뒤부터 |r 사이에 이름을 쓰면 됩니다
@@ -78,7 +80,7 @@ Author - 제작자 이름입니다. toc파일은 언어 코드가 붙은 옵션 
 
 Version - 음성팩의 자체 버전입니다. 0.1로 하든 1.0으로 하든 자기 스타일대로 버전 넘버 지어주세요
 
-IconTexture - 본섭에서만 적용되는 애드온의 아이콘입니다. 캐릭터 선택창의 애드온 메뉴에 표시됩니다. 아이콘을 tga 파일로 직접 제작해서 넣을수도 있고 와우 아이콘을 넣을수도 있습니다. 와우 아이콘은 고유의 아이콘 ID를 써야합니다. 와우헤드 등에서 아이콘 검색으로 ID를 알 수 있습니다. tga 파일은 2의 제곱 크기에 32비트 알파채널이 적용되야 와우 상에서 표시가 됩니다
+IconTexture - 본섭에서만 적용되는 애드온의 아이콘입니다. 캐릭터 선택창의 애드온 메뉴에 표시됩니다. 아이콘을 tga 파일로 직접 제작해서 넣을수도 있고 와우 아이콘을 넣을수도 있습니다. 와우 아이콘은 고유의 아이콘 ID를 써야합니다. WowHead나 Wago Tool에서 검색하면 ID를 알 수 있습니다. tga 파일은 2의 제곱 크기에 32비트 알파채널이 적용되야 와우 상에서 표시가 됩니다
 
 X-DBM-Voice - 1로 설정하세요
 
@@ -88,12 +90,12 @@ X-DBM-Voice-Name-koKR - 한국어 클라이언트 실행시 DBM 옵션에서 음
 
 X-DBM-VoiceShortName - 반드시 <b>음성팩 폴더명에서 앞에 DBM-VP를 뺀 나머지 부분을 입력해야 합니다</b>
 
-X-DBM-Voice-Version - DBM 음성팩 버전 번호이며 DBM 업데이트에 따라 버전 넘버가 조금씩 올라갑니다. 용군단 사전 패치인 현재 12로 되어 있습니다. 보이스 버전 넘버는 본 가이드의 맨 윗줄에 명시되어 있으므로 주기적으로 이곳을 방문해서 확인하면 됩니다. 더 빨리 알고 싶다면 커스의 DBM Voicepack Demo (https://www.curseforge.com/wow/addons/dbm-voicepack-demo) 최신 알파 버전을 받아서 toc 파일을 열어보면 됩니다. <b>버전 번호가 DBM과 맞지 않으면 음성팩이 로딩되질 않으니 주의하세요</b>
+X-DBM-Voice-Version - DBM 음성팩 버전 번호이며 DBM 업데이트에 따라 버전 넘버가 조금씩 올라갑니다. 보이스 버전 넘버는 본 가이드의 맨 윗줄에 명시되어 있으므로 주기적으로 이곳을 방문해서 확인하면 됩니다. 더 빨리 알고 싶다면 커스의 DBM Voicepack Demo (https://www.curseforge.com/wow/addons/dbm-voicepack-demo) 최신 알파 버전을 받아서 toc 파일을 열어보면 됩니다. <b>버전 번호가 DBM과 맞지 않으면 음성팩이 로딩되질 않으니 주의하세요</b>
 
 X-DBM-Voice-HasCount - 카운트용 음성이 들어있을때 1로 하시고 없으면 0으로 하십시오. 카운트 음성을 빼놓고 만드는 경우는 없으니까 1로 하면 됩니다
 
-## 5. 클래식 버전
-위의 toc 파일에는 리테일과 클래식 중 하나의 toc 버전만 사용할 수 있습니다. 만약 리테일과 클래식 통합 보이스팩을 제작하고 싶다면 클래식 버전별 멀티 toc 파일을 작성해야 합니다
+## 5. 클래식 버전용 toc 제작
+위에 설명했듯 Interface의 버전 넘버를 여러개 입력하는 식으로 본섭과 클래식을 동시에 지원할 수 있습니다. 하지만 다른 이유가 있어서 본섭과 클래식의 toc 버전을 따로 만들고 싶다면 아래와 같이 toc 파일을 클래식 버전 별로 생성하면 됩니다.
 
 ```
 DBM-VP보이스팩이름_Mainline.toc - 본섭 toc입니다
@@ -101,8 +103,7 @@ DBM-VP보이스팩이름_Vanilla.toc - 오리지날 클래식 (시대 서버) to
 DBM-VP보이스팩이름_Cata.toc - 대격변 클래식 toc 버전이 들어가야 합니다
 ```
 
-기본 toc는 반드시 있어야하며 기본 toc의 Interface 항목 아래에 '## X-Min-Interface: 본섭 toc버전' 항목을 추가해야 합니다
-멀티 버전 지원시엔 지원할 클래식 버전 toc를 추가로 제작하면 됩니다. 내용은 4번의 toc 양식과 동일하게 작성하면 됩니다.
+각 버전별 내용은 4번의 toc 양식과 동일하게 작성하면 됩니다.
 
 ## 6. 제작 완료
 

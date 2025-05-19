@@ -1,9 +1,13 @@
-﻿#### 마지막 업데이트 : 25년 2월 1일 (Retail 11.0.7 / Cata 4.4.1 / Vanilla 1.15.6 / DBM VP Version 18) ####
+﻿#### 마지막 업데이트 : 25년 5월 20일 (Retail 11.1.5 / Cata 4.4.2 / Vanilla 1.15.7 / DBM VP Version 18) ####
+"mediumball" => "중간 크기 공" // 언더마인 벙크정커
+"bigball" => "큰 공" // 언더마인 벙크정커
+"coinyou" => "동전 징표" // 언더마인 외팔이
+"shockyou" => "전격 징표" // 언더마인 외팔이
 "droptorch" => "횃불 떨구세요" // 카라잔 납골당
 "sparktowater" => "불꽃을 물로 유도하세요" // 작전명 수문
 "screwup" => "굴착당함" // 언더마인 로켄스톡
 "poolyou" => "바닥 까세요" // 언더마인 벡시
-"chargethroughbomb" => "aim charge through bomb" // ??
+"chargethroughbomb" => "폭탄으로 돌진 유도하세요" // 작전명 수문 (사용 안함)
 
 "enteringcombat" => "전투 시작" // DBM 알림
 "leavingcombat" => "전투 종료" // DBM 알림

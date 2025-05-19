@@ -1,4 +1,4 @@
-# DBM 음성팩 제작 가이드 (Voice version 18 / toc version 내부 전쟁 110007, 대격변 40401, 클래식(하드코어,디스커버리,20주년) 11506)
+# DBM 음성팩 제작 가이드 (Voice version 18 / toc version 내부 전쟁 110105, 대격변 40402, 클래식(하드코어,디스커버리,20주년) 11507)
 
 ## 1. 준비물
 
@@ -45,7 +45,7 @@ github의 음성 스크립트 파일을 받아서 대본대로 녹음을 하면 
 무뉴뉴 음성팩 toc를 예시로 설명하겠습니다.
 
 ```
-## Interface: 110007, 110100, 40401, 40402, 11506
+## Interface: 110100, 40402, 11506
 ## Category: DBM
 
 ## Title:|cffffe00a<|r|cffff7d0aDBM Media|r|cffffe00a>|r |cff308530Voicepack mununyu|r

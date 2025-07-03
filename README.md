@@ -1,4 +1,4 @@
-# DBM 음성팩 제작 가이드 (Voice version 18 / toc version 내부 전쟁 110105, 대격변 40402, 클래식(하드코어,디스커버리,20주년) 11507)
+# DBM 음성팩 제작 가이드 (Voice version 18 / toc version 내부 전쟁 110107, 판다 50500, 클래식(하드코어,디스커버리,20주년) 11507)
 
 ## 1. 준비물
 
@@ -100,7 +100,7 @@ X-DBM-Voice-HasCount - 카운트용 음성이 들어있을때 1로 하시고 없
 ```
 DBM-VP보이스팩이름_Mainline.toc - 본섭 toc입니다
 DBM-VP보이스팩이름_Vanilla.toc - 오리지날 클래식 (시대 서버) toc 버전이 들어가야 합니다
-DBM-VP보이스팩이름_Cata.toc - 대격변 클래식 toc 버전이 들어가야 합니다
+DBM-VP보이스팩이름_Mists.toc - 판다 클래식 toc 버전이 들어가야 합니다
 ```
 
 각 버전별 내용은 4번의 toc 양식과 동일하게 작성하면 됩니다.

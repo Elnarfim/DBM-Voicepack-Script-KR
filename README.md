@@ -1,4 +1,4 @@
-# DBM 음성팩 제작 가이드 (Voice version 18 / toc version 내부 전쟁 110205, 판다 50501, 클래식(하드코어,20주년) 11508)
+# DBM 음성팩 제작 가이드 (Voice version 19 / toc version 한밤 120001, 판다 50503, 불성20주년 20505, 클래식/하드코어 11508)
 
 ## 1. 준비물
 
@@ -100,6 +100,7 @@ X-DBM-Voice-HasCount - 카운트용 음성이 들어있을때 1로 하시고 없
 ```
 DBM-VP보이스팩이름_Mainline.toc - 본섭 toc입니다
 DBM-VP보이스팩이름_Vanilla.toc - 오리지널 클래식 (시대 서버) toc 버전이 들어가야 합니다
+DBM-VP보이스팩이름_TBC.toc - 불성 20주년 toc 버전이 들어가야 합니다
 DBM-VP보이스팩이름_Mists.toc - 판다 클래식 toc 버전이 들어가야 합니다
 ```
 

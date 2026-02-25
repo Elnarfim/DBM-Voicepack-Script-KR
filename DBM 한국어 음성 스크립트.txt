@@ -1,4 +1,6 @@
-﻿#### 마지막 업데이트 : 25년 7월 3일 (Retail 11.1.7 / MoP 5.5.0 / Vanilla 1.15.7 / DBM VP Version 18) ####
+﻿#### 마지막 업데이트 : 26년 2월 25일 (Retail 12.0.1 / MoP 5.5.3 / BCC 2.5.5 / Vanilla 1.15.8 / DBM VP Version 19) ####
+"movetobeam" => "레이저로 이동하세요"
+"movetoarrow" => "화살표로 이동하세요"
 "movetoyelloworb" => "노란 구슬로 가세요"
 "mediumball" => "중간 공" // 언더마인 벙크정커
 "bigball" => "큰 공" // 언더마인 벙크정커

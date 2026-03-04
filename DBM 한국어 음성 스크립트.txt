@@ -1,7 +1,14 @@
-﻿#### 마지막 업데이트 : 26년 2월 25일 (Retail 12.0.1 / MoP 5.5.3 / BCC 2.5.5 / Vanilla 1.15.8 / DBM VP Version 19) ####
-"movetobeam" => "레이저로 이동하세요"
-"movetoarrow" => "화살표로 이동하세요"
-"movetoyelloworb" => "노란 구슬로 가세요"
+﻿#### 마지막 업데이트 : 26년 3월 4일 (Retail 12.0.1 / MoP 5.5.3 / BCC 2.5.5 / Vanilla 1.15.8 / DBM VP Version 19) ####
+"trapsincoming" => "덫 깔립니다" // 마이사라 동굴
+"stunyou" => "스턴 걸렸어요" // 동굴, 골짜기
+"frontalyou" => "전방시전" // 마이사라 동굴
+"leapyou" => "나에게 점프 공격" // 마이사라 동굴
+"behindice" => "얼음 뒤에 숨으세요" // 날로라크의 소굴
+"fixateyou" => "추적 대상" // 동굴, 골짜기, 투기장
+"movetobeam" => "레이저로 이동하세요" // 공결탑 제나스
+"movetoarrow" => "화살표로 이동하세요" // 윈드러너 첨탑
+
+"movetoyelloworb" => "노란 구슬로 가세요" // 공포의 환영 오그리마
 "mediumball" => "중간 공" // 언더마인 벙크정커
 "bigball" => "큰 공" // 언더마인 벙크정커
 "coinyou" => "동전 징표" // 언더마인 외팔이
@@ -44,7 +51,7 @@
 "flameyou" => "화염 디버프" // 피락 불길붙이, 타오르는 폭발 (신화)
 "shadowyou" => "어둠 디버프" // 피락 어둠결속, 어둠의 우리 (신화)
 "movetopool" => "바닥으로 가세요" // 파도의 왕좌 오주마트
-"frontal" => "전방 시전"
+"frontal" => "전방시전"
 "getknockedup" => "공중으로 뜨세요" // 소용돌이 누각 알타리우스
 
 "incomingdebuff" => "디버프 걸립니다" // 비공개 오라 걸림

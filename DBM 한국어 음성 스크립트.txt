@@ -1,4 +1,5 @@
-﻿#### 마지막 업데이트 : 26년 3월 4일 (Retail 12.0.1 / MoP 5.5.3 / BCC 2.5.5 / Vanilla 1.15.8 / DBM VP Version 19) ####
+﻿#### 마지막 업데이트 : 26년 3월 12일 (Retail 12.0.1 / MoP 5.5.3 / BCC 2.5.5 / Vanilla 1.15.8 / DBM VP Version 19) ####
+"usegate" => "관문 타세요" // 죽음의 골목
 "trapsincoming" => "덫 깔립니다" // 마이사라 동굴
 "stunyou" => "스턴 걸렸어요" // 동굴, 골짜기
 "frontalyou" => "전방시전" // 마이사라 동굴

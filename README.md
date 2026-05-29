@@ -1,4 +1,4 @@
-# DBM 음성팩 제작 가이드 (Voice version 19 / toc version 한밤 120005, 판다 50503, 불성20주년 20505, 클래식/하드코어 11508)
+# DBM 음성팩 제작 가이드 (Voice version 19)
 
 ## 1. 준비물
 

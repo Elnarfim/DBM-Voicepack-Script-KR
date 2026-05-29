@@ -90,7 +90,7 @@ X-DBM-Voice-Name-koKR - 한국어 클라이언트 실행시 DBM 옵션에서 음
 
 X-DBM-VoiceShortName - 반드시 <b>음성팩 폴더명에서 앞에 DBM-VP를 뺀 나머지 부분을 입력해야 합니다</b>
 
-X-DBM-Voice-Version - DBM 음성팩 버전 번호이며 DBM 업데이트에 따라 버전 넘버가 조금씩 올라갑니다. 보이스 버전 넘버는 본 가이드의 맨 윗줄에 명시되어 있으므로 주기적으로 이곳을 방문해서 확인하면 됩니다. 더 빨리 알고 싶다면 커스의 DBM Voicepack Demo (https://www.curseforge.com/wow/addons/dbm-voicepack-demo) 최신 알파 버전을 받아서 toc 파일을 열어보면 됩니다. <b>버전 번호가 DBM과 맞지 않으면 음성팩이 로딩되질 않으니 주의하세요</b>
+X-DBM-Voice-Version - DBM 음성팩 버전 번호이며 DBM 업데이트에 따라 버전 넘버가 조금씩 올라갑니다. 보이스 버전 넘버는 본 가이드의 맨 윗줄에 명시되어 있으므로 주기적으로 이곳을 방문해서 확인하면 됩니다. 더 빨리 알고 싶다면 애드온 폴더에서 DBM-VPVEM의 toc 파일을 열어보면 됩니다. <b>버전 번호가 DBM과 맞지 않으면 음성팩이 로딩되질 않으니 주의하세요</b>
 
 X-DBM-Voice-HasCount - 카운트용 음성이 들어있을때 1로 하시고 없으면 0으로 하십시오. 카운트 음성을 빼놓고 만드는 경우는 없으니까 1로 하면 됩니다
 
